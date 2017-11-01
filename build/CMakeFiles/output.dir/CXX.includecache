@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/619518/GitHub/Cpp/classes.cc
+classes.h
+/home/619518/GitHub/Cpp/classes.h
+
+/home/619518/GitHub/Cpp/classes.h
+
+/home/619518/GitHub/Cpp/main.cc
+classes.h
+/home/619518/GitHub/Cpp/classes.h
+iostream
+-
+
