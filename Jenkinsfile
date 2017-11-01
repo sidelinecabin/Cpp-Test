@@ -14,7 +14,7 @@ pipeline {
 		make 
             }
 	}
-	Stage('Run')
+	stage('Run')
 	{
 		steps{
 		sh './output'
