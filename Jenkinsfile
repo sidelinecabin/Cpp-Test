@@ -3,7 +3,7 @@
 pipeline {
     agent {
         docker {
-            image 'madduci/docker-ubuntu-cpp' 
+            image 'rikorose/gcc-cmake'
             args '-v /root/.m2:/root/.m2' 
         }
     }
