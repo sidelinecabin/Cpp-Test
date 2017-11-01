@@ -10,8 +10,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                cmake '-GG "Unix MakeFiles" ..'
-		make '' 
+                sh 'cmake -GG "Unix MakeFiles" ..'
+		sh 'make' 
             }
 	}
 	stage('Run')
