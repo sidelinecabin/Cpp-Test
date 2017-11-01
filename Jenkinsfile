@@ -11,7 +11,7 @@ pipeline {
         stage('Build') { 
             steps {
                 cmake '-GG "Unix MakeFiles" ..'
-		make 
+		make '' 
             }
 	}
 	stage('Run')
