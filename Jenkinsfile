@@ -11,7 +11,7 @@ pipeline {
         stage('Build') { 
             steps {
 		
-                sh 'cmake -G \"Unix MakeFiles\" ..'
+                sh 'cmake -G \"Unix Makefiles\" ..'
 		sh 'make' 
             }
 	}
